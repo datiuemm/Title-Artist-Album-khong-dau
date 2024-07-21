@@ -1,0 +1,804 @@
+[#0]
+T=5
+$replace(%artist%,=
+  \u00d0, D,=
+  \u00c1, A,=
+  \u00c0, A,=
+  \u00c3, A,=
+  \u1ea2, A,=
+  \u1ea0, A,=
+  \u00c2, A,=
+  \u1ea4, A,=
+  \u1ea6, A,=
+  \u1eaa, A,=
+  \u1ea8, A,=
+  \u1eac, A,=
+  \u0102, A,=
+  \u1eae, A,=
+  \u1eb0, A,=
+  \u1eb4, A,=
+  \u1eb2, A,=
+  \u1eb6, A,=
+  \u00c9, E,=
+  \u00c8, E,=
+  \u1ebc, E,=
+  \u1eba, E,=
+  \u1eb8, E,=
+  \u00ca, E,=
+  \u1ebe, E,=
+  \u1ec0, E,=
+  \u1ec4, E,=
+  \u1ec2, E,=
+  \u1ec6, E,=
+  \u00cd, I,=
+  \u00cc, I,=
+  \u0128, I,=
+  \u1ec8, I,=
+  \u1eca, I,=
+  \u00d3, O,=
+  \u00d2, O,=
+  \u00d5, O,=
+  \u1ece, O,=
+  \u1ecc, O,=
+  \u00d4, O,=
+  \u1ed0, O,=
+  \u1ed2, O,=
+  \u1ed6, O,=
+  \u1ed4, O,=
+  \u1ed8, O,=
+  \u01a0, O,=
+  \u1eda, O,=
+  \u1edc, O,=
+  \u1ee0, O,=
+  \u1ede, O,=
+  \u1ee2, O,=
+  \u00da, U,=
+  \u00d9, U,=
+  \u0168, U,=
+  \u1ee6, U,=
+  \u1ee4, U,=
+  \u01af, U,=
+  \u1ee8, U,=
+  \u1eea, U,=
+  \u1eee, U,=
+  \u1eec, U,=
+  \u1ef0, U,=
+  \u00dd, Y,=
+  \u1ef2, Y,=
+  \u1ef8, Y,=
+  \u1ef6, Y,=
+  \u1ef4, Y,=
+  \u0111, d,=
+  \u00e1, a,=
+  \u00e0, a,=
+  \u00e3, a,=
+  \u1ea3, a,=
+  \u1ea1, a,=
+  \u00e2, a,=
+  \u1ea5, a,=
+  \u1ea7, a,=
+  \u1eab, a,=
+  \u1ea9, a,=
+  \u1ead, a,=
+  \u0103, a,=
+  \u1eaf, a,=
+  \u1eb1, a,=
+  \u1eb5, a,=
+  \u1eb3, a,=
+  \u1eb7, a,=
+  \u00e9, e,=
+  \u00e8, e,=
+  \u1ebd, e,=
+  \u1ebb, e,=
+  \u1eb9, e,=
+  \u00ea, e,=
+  \u1ebf, e,=
+  \u1ec1, e,=
+  \u1ec5, e,=
+  \u1ec3, e,=
+  \u1ec7, e,=
+  \u00ed, i,=
+  \u00ec, i,=
+  \u0129, i,=
+  \u1ec9, i,=
+  \u1ecb, i,=
+  \u00f3, o,=
+  \u00f2, o,=
+  \u00f5, o,=
+  \u1ecf, o,=
+  \u1ecd, o,=
+  \u00f4, o,=
+  \u1ed1, o,=
+  \u1ed3, o,=
+  \u1ed7, o,=
+  \u1ed5, o,=
+  \u1ed9, o,=
+  \u01a1, o,=
+  \u1edb, o,=
+  \u1edd, o,=
+  \u1ee1, o,=
+  \u1edf, o,=
+  \u1ee3, o,=
+  \u00fa, u,=
+  \u00f9, u,=
+  \u0169, u,=
+  \u1ee7, u,=
+  \u1ee5, u,=
+  \u01b0, u,=
+  \u1ee9, u,=
+  \u1eeb, u,=
+  \u1eef, u,=
+  \u1eed, u,=
+  \u1ef1, u,=
+  \u00fd, y,=
+  \u1ef3, y,=
+  \u1ef9, y,=
+  \u1ef7, y,=
+  \u1ef5, y)=
+F=ARTIST
+1=$replace(%artist%,\u1eef,u)
+
+[#1]
+T=5
+1=$replace(%artist%,\u1eed,u)
+F=ARTIST
+
+[#2]
+T=5
+1=$replace(%artist%,\u1ef1,u)
+F=ARTIST
+
+[#3]
+T=5
+1=$replace(%artist%,\u00d0,D)
+F=ARTIST
+
+[#4]
+T=5
+1=$replace(%artist%,\u00c1,A)
+F=ARTIST
+
+[#5]
+T=5
+1=$replace(%artist%,\u00c0,A)
+F=ARTIST
+
+[#6]
+T=5
+1=$replace(%artist%,\u00c3,A)
+F=ARTIST
+
+[#7]
+T=5
+1=$replace(%artist%,\u1ea2,A)
+F=ARTIST
+
+[#8]
+T=5
+1=$replace(%artist%,\u1ea0,A)
+F=ARTIST
+
+[#9]
+T=5
+1=$replace(%artist%,\u00c2,A)
+F=ARTIST
+
+[#10]
+T=5
+1=$replace(%artist%,\u1ea4,A)
+F=ARTIST
+
+[#11]
+T=5
+1=$replace(%artist%,\u1ea6,A)
+F=ARTIST
+
+[#12]
+T=5
+1=$replace(%artist%,\u1eaa,A)
+F=ARTIST
+
+[#13]
+T=5
+1=$replace(%artist%,\u1ea8,A)
+F=ARTIST
+
+[#14]
+T=5
+1=$replace(%artist%,\u1eac,A)
+F=ARTIST
+
+[#15]
+T=5
+1=$replace(%artist%,\u0102,A)
+F=ARTIST
+
+[#16]
+T=5
+1=$replace(%artist%,\u1eae,A)
+F=ARTIST
+
+[#17]
+T=5
+1=$replace(%artist%,\u1eb0,A)
+F=ARTIST
+
+[#18]
+T=5
+1=$replace(%artist%,\u1eb4,A)
+F=ARTIST
+
+[#19]
+T=5
+1=$replace(%artist%,\u1eb2,A)
+F=ARTIST
+
+[#20]
+T=5
+1=$replace(%artist%,\u1eb6,A)
+F=ARTIST
+
+[#21]
+T=5
+1=$replace(%artist%,\u00c9,E)
+F=ARTIST
+
+[#22]
+T=5
+1=$replace(%artist%,\u00c8,E)
+F=ARTIST
+
+[#23]
+T=5
+1=$replace(%artist%,\u1ebc,E)
+F=ARTIST
+
+[#24]
+T=5
+1=$replace(%artist%,\u1eba,E)
+F=ARTIST
+
+[#25]
+T=5
+1=$replace(%artist%,\u1eb8,E)
+F=ARTIST
+
+[#26]
+T=5
+1=$replace(%artist%,\u00ca,E)
+F=ARTIST
+
+[#27]
+T=5
+1=$replace(%artist%,\u1ebe,E)
+F=ARTIST
+
+[#28]
+T=5
+1=$replace(%artist%,\u1ec0,E)
+F=ARTIST
+
+[#29]
+T=5
+1=$replace(%artist%,\u1ec4,E)
+F=ARTIST
+
+[#30]
+T=5
+1=$replace(%artist%,\u1ec2,E)
+F=ARTIST
+
+[#31]
+T=5
+1=$replace(%artist%,\u1ec6,E)
+F=ARTIST
+
+[#32]
+T=5
+1=$replace(%artist%,\u00cd,I)
+F=ARTIST
+
+[#33]
+T=5
+1=$replace(%artist%,\u00cc,I)
+F=ARTIST
+
+[#34]
+T=5
+1=$replace(%artist%,\u0128,I)
+F=ARTIST
+
+[#35]
+T=5
+1=$replace(%artist%,\u1ec8,I)
+F=ARTIST
+
+[#36]
+T=5
+1=$replace(%artist%,\u1eca,I)
+F=ARTIST
+
+[#37]
+T=5
+1=$replace(%artist%,\u00d3,O)
+F=ARTIST
+
+[#38]
+T=5
+1=$replace(%artist%,\u00d2,O)
+F=ARTIST
+
+[#39]
+T=5
+1=$replace(%artist%,\u00d5,O)
+F=ARTIST
+
+[#40]
+T=5
+1=$replace(%artist%,\u1ece,O)
+F=ARTIST
+
+[#41]
+T=5
+1=$replace(%artist%,\u1ecc,O)
+F=ARTIST
+
+[#42]
+T=5
+1=$replace(%artist%,\u00d4,O)
+F=ARTIST
+
+[#43]
+T=5
+1=$replace(%artist%,\u1ed0,O)
+F=ARTIST
+
+[#44]
+T=5
+1=$replace(%artist%,\u1ed2,O)
+F=ARTIST
+
+[#45]
+T=5
+1=$replace(%artist%,\u1ed6,O)
+F=ARTIST
+
+[#46]
+T=5
+1=$replace(%artist%,\u1ed4,O)
+F=ARTIST
+
+[#47]
+T=5
+1=$replace(%artist%,\u1ed8,O)
+F=ARTIST
+
+[#48]
+T=5
+1=$replace(%artist%,\u01a0,O)
+F=ARTIST
+
+[#49]
+T=5
+1=$replace(%artist%,\u1eda,O)
+F=ARTIST
+
+[#50]
+T=5
+1=$replace(%artist%,\u1edc,O)
+F=ARTIST
+
+[#51]
+T=5
+1=$replace(%artist%,\u1ee0,O)
+F=ARTIST
+
+[#52]
+T=5
+1=$replace(%artist%,\u1ede,O)
+F=ARTIST
+
+[#53]
+T=5
+1=$replace(%artist%,\u1ee2,O)
+F=ARTIST
+
+[#54]
+T=5
+1=$replace(%artist%,\u00da,U)
+F=ARTIST
+
+[#55]
+T=5
+1=$replace(%artist%,\u00d9,U)
+F=ARTIST
+
+[#56]
+T=5
+1=$replace(%artist%,\u0168,U)
+F=ARTIST
+
+[#57]
+T=5
+1=$replace(%artist%,\u1ee6,U)
+F=ARTIST
+
+[#58]
+T=5
+1=$replace(%artist%,\u1ee4,U)
+F=ARTIST
+
+[#59]
+T=5
+1=$replace(%artist%,\u01af,U)
+F=ARTIST
+
+[#60]
+T=5
+1=$replace(%artist%,\u1ee8,U)
+F=ARTIST
+
+[#61]
+T=5
+1=$replace(%artist%,\u1eea,U)
+F=ARTIST
+
+[#62]
+T=5
+1=$replace(%artist%,\u1eee,U)
+F=ARTIST
+
+[#63]
+T=5
+1=$replace(%artist%,\u1eec,U)
+F=ARTIST
+
+[#64]
+T=5
+1=$replace(%artist%,\u1ef0,U)
+F=ARTIST
+
+[#65]
+T=5
+1=$replace(%artist%,\u00dd,Y)
+F=ARTIST
+
+[#66]
+T=5
+1=$replace(%artist%,\u1ef2,Y)
+F=ARTIST
+
+[#67]
+T=5
+1=$replace(%artist%,\u1ef8,Y)
+F=ARTIST
+
+[#68]
+T=5
+1=$replace(%artist%,\u1ef6,Y)
+F=ARTIST
+
+[#69]
+T=5
+1=$replace(%artist%,\u1ef4,Y)
+F=ARTIST
+
+[#70]
+T=5
+1=$replace(%artist%,\u0111,d)
+F=ARTIST
+
+[#71]
+T=5
+1=$replace(%artist%,\u00e1,a)
+F=ARTIST
+
+[#72]
+T=5
+1=$replace(%artist%,\u00e0,a)
+F=ARTIST
+
+[#73]
+T=5
+1=$replace(%artist%,\u00e3,a)
+F=ARTIST
+
+[#74]
+T=5
+1=$replace(%artist%,\u1ea3,a)
+F=ARTIST
+
+[#75]
+T=5
+1=$replace(%artist%,\u1ea1,a)
+F=ARTIST
+
+[#76]
+T=5
+1=$replace(%artist%,\u00e2,a)
+F=ARTIST
+
+[#77]
+T=5
+1=$replace(%artist%,\u1ea5,a)
+F=ARTIST
+
+[#78]
+T=5
+1=$replace(%artist%,\u1ea7,a)
+F=ARTIST
+
+[#79]
+T=5
+1=$replace(%artist%,\u1eab,a)
+F=ARTIST
+
+[#80]
+T=5
+1=$replace(%artist%,\u1ea9,a)
+F=ARTIST
+
+[#81]
+T=5
+1=$replace(%artist%,\u1ead,a)
+F=ARTIST
+
+[#82]
+T=5
+1=$replace(%artist%,\u0103,a)
+F=ARTIST
+
+[#83]
+T=5
+1=$replace(%artist%,\u1eaf,a)
+F=ARTIST
+
+[#84]
+T=5
+1=$replace(%artist%,\u1eb1,a)
+F=ARTIST
+
+[#85]
+T=5
+1=$replace(%artist%,\u1eb5,a)
+F=ARTIST
+
+[#86]
+T=5
+1=$replace(%artist%,\u1eb3,a)
+F=ARTIST
+
+[#87]
+T=5
+1=$replace(%artist%,\u1eb7,a)
+F=ARTIST
+
+[#88]
+T=5
+1=$replace(%artist%,\u00e9,e)
+F=ARTIST
+
+[#89]
+T=5
+1=$replace(%artist%,\u00e8,e)
+F=ARTIST
+
+[#90]
+T=5
+1=$replace(%artist%,\u1ebd,e)
+F=ARTIST
+
+[#91]
+T=5
+1=$replace(%artist%,\u1ebb,e)
+F=ARTIST
+
+[#92]
+T=5
+1=$replace(%artist%,\u1eb9,e)
+F=ARTIST
+
+[#93]
+T=5
+1=$replace(%artist%,\u00ea,e)
+F=ARTIST
+
+[#94]
+T=5
+1=$replace(%artist%,\u1ebf,e)
+F=ARTIST
+
+[#95]
+T=5
+1=$replace(%artist%,\u1ec1,e)
+F=ARTIST
+
+[#96]
+T=5
+1=$replace(%artist%,\u1ec5,e)
+F=ARTIST
+
+[#97]
+T=5
+1=$replace(%artist%,\u1ec3,e)
+F=ARTIST
+
+[#98]
+T=5
+1=$replace(%artist%,\u1ec7,e)
+F=ARTIST
+
+[#99]
+T=5
+1=$replace(%artist%,\u00ed,i)
+F=ARTIST
+
+[#100]
+T=5
+1=$replace(%artist%,\u00ec,i)
+F=ARTIST
+
+[#101]
+T=5
+1=$replace(%artist%,\u0129,i)
+F=ARTIST
+
+[#102]
+T=5
+1=$replace(%artist%,\u1ec9,i)
+F=ARTIST
+
+[#103]
+T=5
+1=$replace(%artist%,\u1ecb,i)
+F=ARTIST
+
+[#104]
+T=5
+1=$replace(%artist%,\u00f3,o)
+F=ARTIST
+
+[#105]
+T=5
+1=$replace(%artist%,\u00f2,o)
+F=ARTIST
+
+[#106]
+T=5
+1=$replace(%artist%,\u00f5,o)
+F=ARTIST
+
+[#107]
+T=5
+1=$replace(%artist%,\u1ecf,o)
+F=ARTIST
+
+[#108]
+T=5
+1=$replace(%artist%,\u1ecd,o)
+F=ARTIST
+
+[#109]
+T=5
+1=$replace(%artist%,\u00f4,o)
+F=ARTIST
+
+[#110]
+T=5
+1=$replace(%artist%,\u1ed1,o)
+F=ARTIST
+
+[#111]
+T=5
+1=$replace(%artist%,\u1ed3,o)
+F=ARTIST
+
+[#112]
+T=5
+1=$replace(%artist%,\u1ed7,o)
+F=ARTIST
+
+[#113]
+T=5
+1=$replace(%artist%,\u1ed5,o)
+F=ARTIST
+
+[#114]
+T=5
+1=$replace(%artist%,\u1ed9,o)
+F=ARTIST
+
+[#115]
+T=5
+1=$replace(%artist%,\u01a1,o)
+F=ARTIST
+
+[#116]
+T=5
+1=$replace(%artist%,\u1edb,o)
+F=ARTIST
+
+[#117]
+T=5
+1=$replace(%artist%,\u1edd,o)
+F=ARTIST
+
+[#118]
+T=5
+1=$replace(%artist%,\u1ee1,o)
+F=ARTIST
+
+[#119]
+T=5
+1=$replace(%artist%,\u1edf,o)
+F=ARTIST
+
+[#120]
+T=5
+1=$replace(%artist%,\u1ee3,o)
+F=ARTIST
+
+[#121]
+T=5
+1=$replace(%artist%,\u00fa,u)
+F=ARTIST
+
+[#122]
+T=5
+1=$replace(%artist%,\u00f9,u)
+F=ARTIST
+
+[#123]
+T=5
+1=$replace(%artist%,\u0169,u)
+F=ARTIST
+
+[#124]
+T=5
+1=$replace(%artist%,\u1ee7,u)
+F=ARTIST
+
+[#125]
+T=5
+1=$replace(%artist%,\u1ee5,u)
+F=ARTIST
+
+[#126]
+T=5
+1=$replace(%artist%,\u01b0,u)
+F=ARTIST
+
+[#127]
+T=5
+1=$replace(%artist%,\u1ee9,u)
+F=ARTIST
+
+[#128]
+T=5
+1=$replace(%artist%,\u1eeb,u)
+F=ARTIST
+
+[#129]
+T=5
+1=$replace(%artist%,\u00fd,y)
+F=ARTIST
+
+[#130]
+T=5
+1=$replace(%artist%,\u1ef3,y)
+F=ARTIST
+
+[#131]
+T=5
+1=$replace(%artist%,\u1ef9,y)
+F=ARTIST
+
+[#132]
+T=5
+1=$replace(%artist%,\u1ef7,y)
+F=ARTIST
+
+[#133]
+T=5
+1=$replace(%artist%,\u1ef5,y)
+F=ARTIST

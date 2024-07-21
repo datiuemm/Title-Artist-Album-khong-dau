@@ -1,0 +1,805 @@
+﻿[#0]
+T=5
+$replace(%title%,=
+  \u00d0, D,=
+  \u00c1, A,=
+  \u00c0, A,=
+  \u00c3, A,=
+  \u1ea2, A,=
+  \u1ea0, A,=
+  \u00c2, A,=
+  \u1ea4, A,=
+  \u1ea6, A,=
+  \u1eaa, A,=
+  \u1ea8, A,=
+  \u1eac, A,=
+  \u0102, A,=
+  \u1eae, A,=
+  \u1eb0, A,=
+  \u1eb4, A,=
+  \u1eb2, A,=
+  \u1eb6, A,=
+  \u00c9, E,=
+  \u00c8, E,=
+  \u1ebc, E,=
+  \u1eba, E,=
+  \u1eb8, E,=
+  \u00ca, E,=
+  \u1ebe, E,=
+  \u1ec0, E,=
+  \u1ec4, E,=
+  \u1ec2, E,=
+  \u1ec6, E,=
+  \u00cd, I,=
+  \u00cc, I,=
+  \u0128, I,=
+  \u1ec8, I,=
+  \u1eca, I,=
+  \u00d3, O,=
+  \u00d2, O,=
+  \u00d5, O,=
+  \u1ece, O,=
+  \u1ecc, O,=
+  \u00d4, O,=
+  \u1ed0, O,=
+  \u1ed2, O,=
+  \u1ed6, O,=
+  \u1ed4, O,=
+  \u1ed8, O,=
+  \u01a0, O,=
+  \u1eda, O,=
+  \u1edc, O,=
+  \u1ee0, O,=
+  \u1ede, O,=
+  \u1ee2, O,=
+  \u00da, U,=
+  \u00d9, U,=
+  \u0168, U,=
+  \u1ee6, U,=
+  \u1ee4, U,=
+  \u01af, U,=
+  \u1ee8, U,=
+  \u1eea, U,=
+  \u1eee, U,=
+  \u1eec, U,=
+  \u1ef0, U,=
+  \u00dd, Y,=
+  \u1ef2, Y,=
+  \u1ef8, Y,=
+  \u1ef6, Y,=
+  \u1ef4, Y,=
+  \u0111, d,=
+  \u00e1, a,=
+  \u00e0, a,=
+  \u00e3, a,=
+  \u1ea3, a,=
+  \u1ea1, a,=
+  \u00e2, a,=
+  \u1ea5, a,=
+  \u1ea7, a,=
+  \u1eab, a,=
+  \u1ea9, a,=
+  \u1ead, a,=
+  \u0103, a,=
+  \u1eaf, a,=
+  \u1eb1, a,=
+  \u1eb5, a,=
+  \u1eb3, a,=
+  \u1eb7, a,=
+  \u00e9, e,=
+  \u00e8, e,=
+  \u1ebd, e,=
+  \u1ebb, e,=
+  \u1eb9, e,=
+  \u00ea, e,=
+  \u1ebf, e,=
+  \u1ec1, e,=
+  \u1ec5, e,=
+  \u1ec3, e,=
+  \u1ec7, e,=
+  \u00ed, i,=
+  \u00ec, i,=
+  \u0129, i,=
+  \u1ec9, i,=
+  \u1ecb, i,=
+  \u00f3, o,=
+  \u00f2, o,=
+  \u00f5, o,=
+  \u1ecf, o,=
+  \u1ecd, o,=
+  \u00f4, o,=
+  \u1ed1, o,=
+  \u1ed3, o,=
+  \u1ed7, o,=
+  \u1ed5, o,=
+  \u1ed9, o,=
+  \u01a1, o,=
+  \u1edb, o,=
+  \u1edd, o,=
+  \u1ee1, o,=
+  \u1edf, o,=
+  \u1ee3, o,=
+  \u00fa, u,=
+  \u00f9, u,=
+  \u0169, u,=
+  \u1ee7, u,=
+  \u1ee5, u,=
+  \u01b0, u,=
+  \u1ee9, u,=
+  \u1eeb, u,=
+  \u1eef, u,=
+  \u1eed, u,=
+  \u1ef1, u,=
+  \u00fd, y,=
+  \u1ef3, y,=
+  \u1ef9, y,=
+  \u1ef7, y,=
+  \u1ef5, y)=
+F=TITLE
+1=$replace(%title%,\u1eef,u)
+
+[#1]
+T=5
+1=$replace(%title%,\u1eed,u)
+F=TITLE
+
+[#2]
+T=5
+1=$replace(%title%,\u1ef1,u)
+F=TITLE
+
+[#3]
+T=5
+1=$replace(%title%,\u0110,D)
+F=TITLE
+
+[#4]
+T=5
+1=$replace(%title%,\u00c1,A)
+F=TITLE
+
+[#5]
+T=5
+1=$replace(%title%,\u00c0,A)
+F=TITLE
+
+[#6]
+T=5
+1=$replace(%title%,\u00c3,A)
+F=TITLE
+
+[#7]
+T=5
+1=$replace(%title%,\u1ea2,A)
+F=TITLE
+
+[#8]
+T=5
+1=$replace(%title%,\u1ea0,A)
+F=TITLE
+
+[#9]
+T=5
+1=$replace(%title%,\u00c2,A)
+F=TITLE
+
+[#10]
+T=5
+1=$replace(%title%,\u1ea4,A)
+F=TITLE
+
+[#11]
+T=5
+1=$replace(%title%,\u1ea6,A)
+F=TITLE
+
+[#12]
+T=5
+1=$replace(%title%,\u1eaa,A)
+F=TITLE
+
+[#13]
+T=5
+1=$replace(%title%,\u1ea8,A)
+F=TITLE
+
+[#14]
+T=5
+1=$replace(%title%,\u1eac,A)
+F=TITLE
+
+[#15]
+T=5
+1=$replace(%title%,\u0102,A)
+F=TITLE
+
+[#16]
+T=5
+1=$replace(%title%,\u1eae,A)
+F=TITLE
+
+[#17]
+T=5
+1=$replace(%title%,\u1eb0,A)
+F=TITLE
+
+[#18]
+T=5
+1=$replace(%title%,\u1eb4,A)
+F=TITLE
+
+[#19]
+T=5
+1=$replace(%title%,\u1eb2,A)
+F=TITLE
+
+[#20]
+T=5
+1=$replace(%title%,\u1eb6,A)
+F=TITLE
+
+[#21]
+T=5
+1=$replace(%title%,\u00c9,E)
+F=TITLE
+
+[#22]
+T=5
+1=$replace(%title%,\u00c8,E)
+F=TITLE
+
+[#23]
+T=5
+1=$replace(%title%,\u1ebc,E)
+F=TITLE
+
+[#24]
+T=5
+1=$replace(%title%,\u1eba,E)
+F=TITLE
+
+[#25]
+T=5
+1=$replace(%title%,\u1eb8,E)
+F=TITLE
+
+[#26]
+T=5
+1=$replace(%title%,\u00ca,E)
+F=TITLE
+
+[#27]
+T=5
+1=$replace(%title%,\u1ebe,E)
+F=TITLE
+
+[#28]
+T=5
+1=$replace(%title%,\u1ec0,E)
+F=TITLE
+
+[#29]
+T=5
+1=$replace(%title%,\u1ec4,E)
+F=TITLE
+
+[#30]
+T=5
+1=$replace(%title%,\u1ec2,E)
+F=TITLE
+
+[#31]
+T=5
+1=$replace(%title%,\u1ec6,E)
+F=TITLE
+
+[#32]
+T=5
+1=$replace(%title%,\u00cd,I)
+F=TITLE
+
+[#33]
+T=5
+1=$replace(%title%,\u00cc,I)
+F=TITLE
+
+[#34]
+T=5
+1=$replace(%title%,\u0128,I)
+F=TITLE
+
+[#35]
+T=5
+1=$replace(%title%,\u1ec8,I)
+F=TITLE
+
+[#36]
+T=5
+1=$replace(%title%,\u1eca,I)
+F=TITLE
+
+[#37]
+T=5
+1=$replace(%title%,\u00d3,O)
+F=TITLE
+
+[#38]
+T=5
+1=$replace(%title%,\u00d2,O)
+F=TITLE
+
+[#39]
+T=5
+1=$replace(%title%,\u00d5,O)
+F=TITLE
+
+[#40]
+T=5
+1=$replace(%title%,\u1ece,O)
+F=TITLE
+
+[#41]
+T=5
+1=$replace(%title%,\u1ecc,O)
+F=TITLE
+
+[#42]
+T=5
+1=$replace(%title%,\u00d4,O)
+F=TITLE
+
+[#43]
+T=5
+1=$replace(%title%,\u1ed0,O)
+F=TITLE
+
+[#44]
+T=5
+1=$replace(%title%,\u1ed2,O)
+F=TITLE
+
+[#45]
+T=5
+1=$replace(%title%,\u1ed6,O)
+F=TITLE
+
+[#46]
+T=5
+1=$replace(%title%,\u1ed4,O)
+F=TITLE
+
+[#47]
+T=5
+1=$replace(%title%,\u1ed8,O)
+F=TITLE
+
+[#48]
+T=5
+1=$replace(%title%,\u01a0,O)
+F=TITLE
+
+[#49]
+T=5
+1=$replace(%title%,\u1eda,O)
+F=TITLE
+
+[#50]
+T=5
+1=$replace(%title%,\u1edc,O)
+F=TITLE
+
+[#51]
+T=5
+1=$replace(%title%,\u1ee0,O)
+F=TITLE
+
+[#52]
+T=5
+1=$replace(%title%,\u1ede,O)
+F=TITLE
+
+[#53]
+T=5
+1=$replace(%title%,\u1ee2,O)
+F=TITLE
+
+[#54]
+T=5
+1=$replace(%title%,\u00da,U)
+F=TITLE
+
+[#55]
+T=5
+1=$replace(%title%,\u00d9,U)
+F=TITLE
+
+[#56]
+T=5
+1=$replace(%title%,\u0168,U)
+F=TITLE
+
+[#57]
+T=5
+1=$replace(%title%,\u1ee6,U)
+F=TITLE
+
+[#58]
+T=5
+1=$replace(%title%,\u1ee4,U)
+F=TITLE
+
+[#59]
+T=5
+1=$replace(%title%,\u01af,U)
+F=TITLE
+
+[#60]
+T=5
+1=$replace(%title%,\u1ee8,U)
+F=TITLE
+
+[#61]
+T=5
+1=$replace(%title%,\u1eea,U)
+F=TITLE
+
+[#62]
+T=5
+1=$replace(%title%,\u1eee,U)
+F=TITLE
+
+[#63]
+T=5
+1=$replace(%title%,\u1eec,U)
+F=TITLE
+
+[#64]
+T=5
+1=$replace(%title%,\u1ef0,U)
+F=TITLE
+
+[#65]
+T=5
+1=$replace(%title%,\u00dd,Y)
+F=TITLE
+
+[#66]
+T=5
+1=$replace(%title%,\u1ef2,Y)
+F=TITLE
+
+[#67]
+T=5
+1=$replace(%title%,\u1ef8,Y)
+F=TITLE
+
+[#68]
+T=5
+1=$replace(%title%,\u1ef6,Y)
+F=TITLE
+
+[#69]
+T=5
+1=$replace(%title%,\u1ef4,Y)
+F=TITLE
+
+[#70]
+T=5
+1=$replace(%title%,\u0111,d)
+F=TITLE
+
+[#71]
+T=5
+1=$replace(%title%,\u00e1,a)
+F=TITLE
+
+[#72]
+T=5
+1=$replace(%title%,\u00e0,a)
+F=TITLE
+
+[#73]
+T=5
+1=$replace(%title%,\u00e3,a)
+F=TITLE
+
+[#74]
+T=5
+1=$replace(%title%,\u1ea3,a)
+F=TITLE
+
+[#75]
+T=5
+1=$replace(%title%,\u1ea1,a)
+F=TITLE
+
+[#76]
+T=5
+1=$replace(%title%,\u00e2,a)
+F=TITLE
+
+[#77]
+T=5
+1=$replace(%title%,\u1ea5,a)
+F=TITLE
+
+[#78]
+T=5
+1=$replace(%title%,\u1ea7,a)
+F=TITLE
+
+[#79]
+T=5
+1=$replace(%title%,\u1eab,a)
+F=TITLE
+
+[#80]
+T=5
+1=$replace(%title%,\u1ea9,a)
+F=TITLE
+
+[#81]
+T=5
+1=$replace(%title%,\u1ead,a)
+F=TITLE
+
+[#82]
+T=5
+1=$replace(%title%,\u0103,a)
+F=TITLE
+
+[#83]
+T=5
+1=$replace(%title%,\u1eaf,a)
+F=TITLE
+
+[#84]
+T=5
+1=$replace(%title%,\u1eb1,a)
+F=TITLE
+
+[#85]
+T=5
+1=$replace(%title%,\u1eb5,a)
+F=TITLE
+
+[#86]
+T=5
+1=$replace(%title%,\u1eb3,a)
+F=TITLE
+
+[#87]
+T=5
+1=$replace(%title%,\u1eb7,a)
+F=TITLE
+
+[#88]
+T=5
+1=$replace(%title%,\u00e9,e)
+F=TITLE
+
+[#89]
+T=5
+1=$replace(%title%,\u00e8,e)
+F=TITLE
+
+[#90]
+T=5
+1=$replace(%title%,\u1ebd,e)
+F=TITLE
+
+[#91]
+T=5
+1=$replace(%title%,\u1ebb,e)
+F=TITLE
+
+[#92]
+T=5
+1=$replace(%title%,\u1eb9,e)
+F=TITLE
+
+[#93]
+T=5
+1=$replace(%title%,\u00ea,e)
+F=TITLE
+
+[#94]
+T=5
+1=$replace(%title%,\u1ebf,e)
+F=TITLE
+
+[#95]
+T=5
+1=$replace(%title%,\u1ec1,e)
+F=TITLE
+
+[#96]
+T=5
+1=$replace(%title%,\u1ec5,e)
+F=TITLE
+
+[#97]
+T=5
+1=$replace(%title%,\u1ec3,e)
+F=TITLE
+
+[#98]
+T=5
+1=$replace(%title%,\u1ec7,e)
+F=TITLE
+
+[#99]
+T=5
+1=$replace(%title%,\u00ed,i)
+F=TITLE
+
+[#100]
+T=5
+1=$replace(%title%,\u00ec,i)
+F=TITLE
+
+[#101]
+T=5
+1=$replace(%title%,\u0129,i)
+F=TITLE
+
+[#102]
+T=5
+1=$replace(%title%,\u1ec9,i)
+F=TITLE
+
+[#103]
+T=5
+1=$replace(%title%,\u1ecb,i)
+F=TITLE
+
+[#104]
+T=5
+1=$replace(%title%,\u00f3,o)
+F=TITLE
+
+[#105]
+T=5
+1=$replace(%title%,\u00f2,o)
+F=TITLE
+
+[#106]
+T=5
+1=$replace(%title%,\u00f5,o)
+F=TITLE
+
+[#107]
+T=5
+1=$replace(%title%,\u1ecf,o)
+F=TITLE
+
+[#108]
+T=5
+1=$replace(%title%,\u1ecd,o)
+F=TITLE
+
+[#109]
+T=5
+1=$replace(%title%,\u00f4,o)
+F=TITLE
+
+[#110]
+T=5
+1=$replace(%title%,\u1ed1,o)
+F=TITLE
+
+[#111]
+T=5
+1=$replace(%title%,\u1ed3,o)
+F=TITLE
+
+[#112]
+T=5
+1=$replace(%title%,\u1ed7,o)
+F=TITLE
+
+[#113]
+T=5
+1=$replace(%title%,\u1ed5,o)
+F=TITLE
+
+[#114]
+T=5
+1=$replace(%title%,\u1ed9,o)
+F=TITLE
+
+[#115]
+T=5
+1=$replace(%title%,\u01a1,o)
+F=TITLE
+
+[#116]
+T=5
+1=$replace(%title%,\u1edb,o)
+F=TITLE
+
+[#117]
+T=5
+1=$replace(%title%,\u1edd,o)
+F=TITLE
+
+[#118]
+T=5
+1=$replace(%title%,\u1ee1,o)
+F=TITLE
+
+[#119]
+T=5
+1=$replace(%title%,\u1edf,o)
+F=TITLE
+
+[#120]
+T=5
+1=$replace(%title%,\u1ee3,o)
+F=TITLE
+
+[#121]
+T=5
+1=$replace(%title%,\u00fa,u)
+F=TITLE
+
+[#122]
+T=5
+1=$replace(%title%,\u00f9,u)
+F=TITLE
+
+[#123]
+T=5
+1=$replace(%title%,\u0169,u)
+F=TITLE
+
+[#124]
+T=5
+1=$replace(%title%,\u1ee7,u)
+F=TITLE
+
+[#125]
+T=5
+1=$replace(%title%,\u1ee5,u)
+F=TITLE
+
+[#126]
+T=5
+1=$replace(%title%,\u01b0,u)
+F=TITLE
+
+[#127]
+T=5
+1=$replace(%title%,\u1ee9,u)
+F=TITLE
+
+[#128]
+T=5
+1=$replace(%title%,\u1eeb,u)
+F=TITLE
+
+[#129]
+T=5
+1=$replace(%title%,\u00fd,y)
+F=TITLE
+
+[#130]
+T=5
+1=$replace(%title%,\u1ef3,y)
+F=TITLE
+
+[#131]
+T=5
+1=$replace(%title%,\u1ef9,y)
+F=TITLE
+
+[#132]
+T=5
+1=$replace(%title%,\u1ef7,y)
+F=TITLE
+
+[#133]
+T=5
+1=$replace(%title%,\u1ef5,y)
+F=TITLE
+

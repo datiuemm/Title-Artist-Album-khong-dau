@@ -1,0 +1,804 @@
+[#0]
+T=5
+$replace(%album%,=
+  \u00d0, D,=
+  \u00c1, A,=
+  \u00c0, A,=
+  \u00c3, A,=
+  \u1ea2, A,=
+  \u1ea0, A,=
+  \u00c2, A,=
+  \u1ea4, A,=
+  \u1ea6, A,=
+  \u1eaa, A,=
+  \u1ea8, A,=
+  \u1eac, A,=
+  \u0102, A,=
+  \u1eae, A,=
+  \u1eb0, A,=
+  \u1eb4, A,=
+  \u1eb2, A,=
+  \u1eb6, A,=
+  \u00c9, E,=
+  \u00c8, E,=
+  \u1ebc, E,=
+  \u1eba, E,=
+  \u1eb8, E,=
+  \u00ca, E,=
+  \u1ebe, E,=
+  \u1ec0, E,=
+  \u1ec4, E,=
+  \u1ec2, E,=
+  \u1ec6, E,=
+  \u00cd, I,=
+  \u00cc, I,=
+  \u0128, I,=
+  \u1ec8, I,=
+  \u1eca, I,=
+  \u00d3, O,=
+  \u00d2, O,=
+  \u00d5, O,=
+  \u1ece, O,=
+  \u1ecc, O,=
+  \u00d4, O,=
+  \u1ed0, O,=
+  \u1ed2, O,=
+  \u1ed6, O,=
+  \u1ed4, O,=
+  \u1ed8, O,=
+  \u01a0, O,=
+  \u1eda, O,=
+  \u1edc, O,=
+  \u1ee0, O,=
+  \u1ede, O,=
+  \u1ee2, O,=
+  \u00da, U,=
+  \u00d9, U,=
+  \u0168, U,=
+  \u1ee6, U,=
+  \u1ee4, U,=
+  \u01af, U,=
+  \u1ee8, U,=
+  \u1eea, U,=
+  \u1eee, U,=
+  \u1eec, U,=
+  \u1ef0, U,=
+  \u00dd, Y,=
+  \u1ef2, Y,=
+  \u1ef8, Y,=
+  \u1ef6, Y,=
+  \u1ef4, Y,=
+  \u0111, d,=
+  \u00e1, a,=
+  \u00e0, a,=
+  \u00e3, a,=
+  \u1ea3, a,=
+  \u1ea1, a,=
+  \u00e2, a,=
+  \u1ea5, a,=
+  \u1ea7, a,=
+  \u1eab, a,=
+  \u1ea9, a,=
+  \u1ead, a,=
+  \u0103, a,=
+  \u1eaf, a,=
+  \u1eb1, a,=
+  \u1eb5, a,=
+  \u1eb3, a,=
+  \u1eb7, a,=
+  \u00e9, e,=
+  \u00e8, e,=
+  \u1ebd, e,=
+  \u1ebb, e,=
+  \u1eb9, e,=
+  \u00ea, e,=
+  \u1ebf, e,=
+  \u1ec1, e,=
+  \u1ec5, e,=
+  \u1ec3, e,=
+  \u1ec7, e,=
+  \u00ed, i,=
+  \u00ec, i,=
+  \u0129, i,=
+  \u1ec9, i,=
+  \u1ecb, i,=
+  \u00f3, o,=
+  \u00f2, o,=
+  \u00f5, o,=
+  \u1ecf, o,=
+  \u1ecd, o,=
+  \u00f4, o,=
+  \u1ed1, o,=
+  \u1ed3, o,=
+  \u1ed7, o,=
+  \u1ed5, o,=
+  \u1ed9, o,=
+  \u01a1, o,=
+  \u1edb, o,=
+  \u1edd, o,=
+  \u1ee1, o,=
+  \u1edf, o,=
+  \u1ee3, o,=
+  \u00fa, u,=
+  \u00f9, u,=
+  \u0169, u,=
+  \u1ee7, u,=
+  \u1ee5, u,=
+  \u01b0, u,=
+  \u1ee9, u,=
+  \u1eeb, u,=
+  \u1eef, u,=
+  \u1eed, u,=
+  \u1ef1, u,=
+  \u00fd, y,=
+  \u1ef3, y,=
+  \u1ef9, y,=
+  \u1ef7, y,=
+  \u1ef5, y)=
+F=ALBUM
+1=$replace(%album%,\u1eef,u)
+
+[#1]
+T=5
+1=$replace(%album%,\u1eed,u)
+F=ALBUM
+
+[#2]
+T=5
+1=$replace(%album%,\u1ef1,u)
+F=ALBUM
+
+[#3]
+T=5
+1=$replace(%album%,\u00d0,D)
+F=ALBUM
+
+[#4]
+T=5
+1=$replace(%album%,\u00c1,A)
+F=ALBUM
+
+[#5]
+T=5
+1=$replace(%album%,\u00c0,A)
+F=ALBUM
+
+[#6]
+T=5
+1=$replace(%album%,\u00c3,A)
+F=ALBUM
+
+[#7]
+T=5
+1=$replace(%album%,\u1ea2,A)
+F=ALBUM
+
+[#8]
+T=5
+1=$replace(%album%,\u1ea0,A)
+F=ALBUM
+
+[#9]
+T=5
+1=$replace(%album%,\u00c2,A)
+F=ALBUM
+
+[#10]
+T=5
+1=$replace(%album%,\u1ea4,A)
+F=ALBUM
+
+[#11]
+T=5
+1=$replace(%album%,\u1ea6,A)
+F=ALBUM
+
+[#12]
+T=5
+1=$replace(%album%,\u1eaa,A)
+F=ALBUM
+
+[#13]
+T=5
+1=$replace(%album%,\u1ea8,A)
+F=ALBUM
+
+[#14]
+T=5
+1=$replace(%album%,\u1eac,A)
+F=ALBUM
+
+[#15]
+T=5
+1=$replace(%album%,\u0102,A)
+F=ALBUM
+
+[#16]
+T=5
+1=$replace(%album%,\u1eae,A)
+F=ALBUM
+
+[#17]
+T=5
+1=$replace(%album%,\u1eb0,A)
+F=ALBUM
+
+[#18]
+T=5
+1=$replace(%album%,\u1eb4,A)
+F=ALBUM
+
+[#19]
+T=5
+1=$replace(%album%,\u1eb2,A)
+F=ALBUM
+
+[#20]
+T=5
+1=$replace(%album%,\u1eb6,A)
+F=ALBUM
+
+[#21]
+T=5
+1=$replace(%album%,\u00c9,E)
+F=ALBUM
+
+[#22]
+T=5
+1=$replace(%album%,\u00c8,E)
+F=ALBUM
+
+[#23]
+T=5
+1=$replace(%album%,\u1ebc,E)
+F=ALBUM
+
+[#24]
+T=5
+1=$replace(%album%,\u1eba,E)
+F=ALBUM
+
+[#25]
+T=5
+1=$replace(%album%,\u1eb8,E)
+F=ALBUM
+
+[#26]
+T=5
+1=$replace(%album%,\u00ca,E)
+F=ALBUM
+
+[#27]
+T=5
+1=$replace(%album%,\u1ebe,E)
+F=ALBUM
+
+[#28]
+T=5
+1=$replace(%album%,\u1ec0,E)
+F=ALBUM
+
+[#29]
+T=5
+1=$replace(%album%,\u1ec4,E)
+F=ALBUM
+
+[#30]
+T=5
+1=$replace(%album%,\u1ec2,E)
+F=ALBUM
+
+[#31]
+T=5
+1=$replace(%album%,\u1ec6,E)
+F=ALBUM
+
+[#32]
+T=5
+1=$replace(%album%,\u00cd,I)
+F=ALBUM
+
+[#33]
+T=5
+1=$replace(%album%,\u00cc,I)
+F=ALBUM
+
+[#34]
+T=5
+1=$replace(%album%,\u0128,I)
+F=ALBUM
+
+[#35]
+T=5
+1=$replace(%album%,\u1ec8,I)
+F=ALBUM
+
+[#36]
+T=5
+1=$replace(%album%,\u1eca,I)
+F=ALBUM
+
+[#37]
+T=5
+1=$replace(%album%,\u00d3,O)
+F=ALBUM
+
+[#38]
+T=5
+1=$replace(%album%,\u00d2,O)
+F=ALBUM
+
+[#39]
+T=5
+1=$replace(%album%,\u00d5,O)
+F=ALBUM
+
+[#40]
+T=5
+1=$replace(%album%,\u1ece,O)
+F=ALBUM
+
+[#41]
+T=5
+1=$replace(%album%,\u1ecc,O)
+F=ALBUM
+
+[#42]
+T=5
+1=$replace(%album%,\u00d4,O)
+F=ALBUM
+
+[#43]
+T=5
+1=$replace(%album%,\u1ed0,O)
+F=ALBUM
+
+[#44]
+T=5
+1=$replace(%album%,\u1ed2,O)
+F=ALBUM
+
+[#45]
+T=5
+1=$replace(%album%,\u1ed6,O)
+F=ALBUM
+
+[#46]
+T=5
+1=$replace(%album%,\u1ed4,O)
+F=ALBUM
+
+[#47]
+T=5
+1=$replace(%album%,\u1ed8,O)
+F=ALBUM
+
+[#48]
+T=5
+1=$replace(%album%,\u01a0,O)
+F=ALBUM
+
+[#49]
+T=5
+1=$replace(%album%,\u1eda,O)
+F=ALBUM
+
+[#50]
+T=5
+1=$replace(%album%,\u1edc,O)
+F=ALBUM
+
+[#51]
+T=5
+1=$replace(%album%,\u1ee0,O)
+F=ALBUM
+
+[#52]
+T=5
+1=$replace(%album%,\u1ede,O)
+F=ALBUM
+
+[#53]
+T=5
+1=$replace(%album%,\u1ee2,O)
+F=ALBUM
+
+[#54]
+T=5
+1=$replace(%album%,\u00da,U)
+F=ALBUM
+
+[#55]
+T=5
+1=$replace(%album%,\u00d9,U)
+F=ALBUM
+
+[#56]
+T=5
+1=$replace(%album%,\u0168,U)
+F=ALBUM
+
+[#57]
+T=5
+1=$replace(%album%,\u1ee6,U)
+F=ALBUM
+
+[#58]
+T=5
+1=$replace(%album%,\u1ee4,U)
+F=ALBUM
+
+[#59]
+T=5
+1=$replace(%album%,\u01af,U)
+F=ALBUM
+
+[#60]
+T=5
+1=$replace(%album%,\u1ee8,U)
+F=ALBUM
+
+[#61]
+T=5
+1=$replace(%album%,\u1eea,U)
+F=ALBUM
+
+[#62]
+T=5
+1=$replace(%album%,\u1eee,U)
+F=ALBUM
+
+[#63]
+T=5
+1=$replace(%album%,\u1eec,U)
+F=ALBUM
+
+[#64]
+T=5
+1=$replace(%album%,\u1ef0,U)
+F=ALBUM
+
+[#65]
+T=5
+1=$replace(%album%,\u00dd,Y)
+F=ALBUM
+
+[#66]
+T=5
+1=$replace(%album%,\u1ef2,Y)
+F=ALBUM
+
+[#67]
+T=5
+1=$replace(%album%,\u1ef8,Y)
+F=ALBUM
+
+[#68]
+T=5
+1=$replace(%album%,\u1ef6,Y)
+F=ALBUM
+
+[#69]
+T=5
+1=$replace(%album%,\u1ef4,Y)
+F=ALBUM
+
+[#70]
+T=5
+1=$replace(%album%,\u0111,d)
+F=ALBUM
+
+[#71]
+T=5
+1=$replace(%album%,\u00e1,a)
+F=ALBUM
+
+[#72]
+T=5
+1=$replace(%album%,\u00e0,a)
+F=ALBUM
+
+[#73]
+T=5
+1=$replace(%album%,\u00e3,a)
+F=ALBUM
+
+[#74]
+T=5
+1=$replace(%album%,\u1ea3,a)
+F=ALBUM
+
+[#75]
+T=5
+1=$replace(%album%,\u1ea1,a)
+F=ALBUM
+
+[#76]
+T=5
+1=$replace(%album%,\u00e2,a)
+F=ALBUM
+
+[#77]
+T=5
+1=$replace(%album%,\u1ea5,a)
+F=ALBUM
+
+[#78]
+T=5
+1=$replace(%album%,\u1ea7,a)
+F=ALBUM
+
+[#79]
+T=5
+1=$replace(%album%,\u1eab,a)
+F=ALBUM
+
+[#80]
+T=5
+1=$replace(%album%,\u1ea9,a)
+F=ALBUM
+
+[#81]
+T=5
+1=$replace(%album%,\u1ead,a)
+F=ALBUM
+
+[#82]
+T=5
+1=$replace(%album%,\u0103,a)
+F=ALBUM
+
+[#83]
+T=5
+1=$replace(%album%,\u1eaf,a)
+F=ALBUM
+
+[#84]
+T=5
+1=$replace(%album%,\u1eb1,a)
+F=ALBUM
+
+[#85]
+T=5
+1=$replace(%album%,\u1eb5,a)
+F=ALBUM
+
+[#86]
+T=5
+1=$replace(%album%,\u1eb3,a)
+F=ALBUM
+
+[#87]
+T=5
+1=$replace(%album%,\u1eb7,a)
+F=ALBUM
+
+[#88]
+T=5
+1=$replace(%album%,\u00e9,e)
+F=ALBUM
+
+[#89]
+T=5
+1=$replace(%album%,\u00e8,e)
+F=ALBUM
+
+[#90]
+T=5
+1=$replace(%album%,\u1ebd,e)
+F=ALBUM
+
+[#91]
+T=5
+1=$replace(%album%,\u1ebb,e)
+F=ALBUM
+
+[#92]
+T=5
+1=$replace(%album%,\u1eb9,e)
+F=ALBUM
+
+[#93]
+T=5
+1=$replace(%album%,\u00ea,e)
+F=ALBUM
+
+[#94]
+T=5
+1=$replace(%album%,\u1ebf,e)
+F=ALBUM
+
+[#95]
+T=5
+1=$replace(%album%,\u1ec1,e)
+F=ALBUM
+
+[#96]
+T=5
+1=$replace(%album%,\u1ec5,e)
+F=ALBUM
+
+[#97]
+T=5
+1=$replace(%album%,\u1ec3,e)
+F=ALBUM
+
+[#98]
+T=5
+1=$replace(%album%,\u1ec7,e)
+F=ALBUM
+
+[#99]
+T=5
+1=$replace(%album%,\u00ed,i)
+F=ALBUM
+
+[#100]
+T=5
+1=$replace(%album%,\u00ec,i)
+F=ALBUM
+
+[#101]
+T=5
+1=$replace(%album%,\u0129,i)
+F=ALBUM
+
+[#102]
+T=5
+1=$replace(%album%,\u1ec9,i)
+F=ALBUM
+
+[#103]
+T=5
+1=$replace(%album%,\u1ecb,i)
+F=ALBUM
+
+[#104]
+T=5
+1=$replace(%album%,\u00f3,o)
+F=ALBUM
+
+[#105]
+T=5
+1=$replace(%album%,\u00f2,o)
+F=ALBUM
+
+[#106]
+T=5
+1=$replace(%album%,\u00f5,o)
+F=ALBUM
+
+[#107]
+T=5
+1=$replace(%album%,\u1ecf,o)
+F=ALBUM
+
+[#108]
+T=5
+1=$replace(%album%,\u1ecd,o)
+F=ALBUM
+
+[#109]
+T=5
+1=$replace(%album%,\u00f4,o)
+F=ALBUM
+
+[#110]
+T=5
+1=$replace(%album%,\u1ed1,o)
+F=ALBUM
+
+[#111]
+T=5
+1=$replace(%album%,\u1ed3,o)
+F=ALBUM
+
+[#112]
+T=5
+1=$replace(%album%,\u1ed7,o)
+F=ALBUM
+
+[#113]
+T=5
+1=$replace(%album%,\u1ed5,o)
+F=ALBUM
+
+[#114]
+T=5
+1=$replace(%album%,\u1ed9,o)
+F=ALBUM
+
+[#115]
+T=5
+1=$replace(%album%,\u01a1,o)
+F=ALBUM
+
+[#116]
+T=5
+1=$replace(%album%,\u1edb,o)
+F=ALBUM
+
+[#117]
+T=5
+1=$replace(%album%,\u1edd,o)
+F=ALBUM
+
+[#118]
+T=5
+1=$replace(%album%,\u1ee1,o)
+F=ALBUM
+
+[#119]
+T=5
+1=$replace(%album%,\u1edf,o)
+F=ALBUM
+
+[#120]
+T=5
+1=$replace(%album%,\u1ee3,o)
+F=ALBUM
+
+[#121]
+T=5
+1=$replace(%album%,\u00fa,u)
+F=ALBUM
+
+[#122]
+T=5
+1=$replace(%album%,\u00f9,u)
+F=ALBUM
+
+[#123]
+T=5
+1=$replace(%album%,\u0169,u)
+F=ALBUM
+
+[#124]
+T=5
+1=$replace(%album%,\u1ee7,u)
+F=ALBUM
+
+[#125]
+T=5
+1=$replace(%album%,\u1ee5,u)
+F=ALBUM
+
+[#126]
+T=5
+1=$replace(%album%,\u01b0,u)
+F=ALBUM
+
+[#127]
+T=5
+1=$replace(%album%,\u1ee9,u)
+F=ALBUM
+
+[#128]
+T=5
+1=$replace(%album%,\u1eeb,u)
+F=ALBUM
+
+[#129]
+T=5
+1=$replace(%album%,\u00fd,y)
+F=ALBUM
+
+[#130]
+T=5
+1=$replace(%album%,\u1ef3,y)
+F=ALBUM
+
+[#131]
+T=5
+1=$replace(%album%,\u1ef9,y)
+F=ALBUM
+
+[#132]
+T=5
+1=$replace(%album%,\u1ef7,y)
+F=ALBUM
+
+[#133]
+T=5
+1=$replace(%album%,\u1ef5,y)
+F=ALBUM
