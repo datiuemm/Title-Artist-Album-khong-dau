@@ -1,0 +1,805 @@
+﻿[#0]
+T=5
+$replace(%_filename%,=
+  \u00d0, D,=
+  \u00c1, A,=
+  \u00c0, A,=
+  \u00c3, A,=
+  \u1ea2, A,=
+  \u1ea0, A,=
+  \u00c2, A,=
+  \u1ea4, A,=
+  \u1ea6, A,=
+  \u1eaa, A,=
+  \u1ea8, A,=
+  \u1eac, A,=
+  \u0102, A,=
+  \u1eae, A,=
+  \u1eb0, A,=
+  \u1eb4, A,=
+  \u1eb2, A,=
+  \u1eb6, A,=
+  \u00c9, E,=
+  \u00c8, E,=
+  \u1ebc, E,=
+  \u1eba, E,=
+  \u1eb8, E,=
+  \u00ca, E,=
+  \u1ebe, E,=
+  \u1ec0, E,=
+  \u1ec4, E,=
+  \u1ec2, E,=
+  \u1ec6, E,=
+  \u00cd, I,=
+  \u00cc, I,=
+  \u0128, I,=
+  \u1ec8, I,=
+  \u1eca, I,=
+  \u00d3, O,=
+  \u00d2, O,=
+  \u00d5, O,=
+  \u1ece, O,=
+  \u1ecc, O,=
+  \u00d4, O,=
+  \u1ed0, O,=
+  \u1ed2, O,=
+  \u1ed6, O,=
+  \u1ed4, O,=
+  \u1ed8, O,=
+  \u01a0, O,=
+  \u1eda, O,=
+  \u1edc, O,=
+  \u1ee0, O,=
+  \u1ede, O,=
+  \u1ee2, O,=
+  \u00da, U,=
+  \u00d9, U,=
+  \u0168, U,=
+  \u1ee6, U,=
+  \u1ee4, U,=
+  \u01af, U,=
+  \u1ee8, U,=
+  \u1eea, U,=
+  \u1eee, U,=
+  \u1eec, U,=
+  \u1ef0, U,=
+  \u00dd, Y,=
+  \u1ef2, Y,=
+  \u1ef8, Y,=
+  \u1ef6, Y,=
+  \u1ef4, Y,=
+  \u0111, d,=
+  \u00e1, a,=
+  \u00e0, a,=
+  \u00e3, a,=
+  \u1ea3, a,=
+  \u1ea1, a,=
+  \u00e2, a,=
+  \u1ea5, a,=
+  \u1ea7, a,=
+  \u1eab, a,=
+  \u1ea9, a,=
+  \u1ead, a,=
+  \u0103, a,=
+  \u1eaf, a,=
+  \u1eb1, a,=
+  \u1eb5, a,=
+  \u1eb3, a,=
+  \u1eb7, a,=
+  \u00e9, e,=
+  \u00e8, e,=
+  \u1ebd, e,=
+  \u1ebb, e,=
+  \u1eb9, e,=
+  \u00ea, e,=
+  \u1ebf, e,=
+  \u1ec1, e,=
+  \u1ec5, e,=
+  \u1ec3, e,=
+  \u1ec7, e,=
+  \u00ed, i,=
+  \u00ec, i,=
+  \u0129, i,=
+  \u1ec9, i,=
+  \u1ecb, i,=
+  \u00f3, o,=
+  \u00f2, o,=
+  \u00f5, o,=
+  \u1ecf, o,=
+  \u1ecd, o,=
+  \u00f4, o,=
+  \u1ed1, o,=
+  \u1ed3, o,=
+  \u1ed7, o,=
+  \u1ed5, o,=
+  \u1ed9, o,=
+  \u01a1, o,=
+  \u1edb, o,=
+  \u1edd, o,=
+  \u1ee1, o,=
+  \u1edf, o,=
+  \u1ee3, o,=
+  \u00fa, u,=
+  \u00f9, u,=
+  \u0169, u,=
+  \u1ee7, u,=
+  \u1ee5, u,=
+  \u01b0, u,=
+  \u1ee9, u,=
+  \u1eeb, u,=
+  \u1eef, u,=
+  \u1eed, u,=
+  \u1ef1, u,=
+  \u00fd, y,=
+  \u1ef3, y,=
+  \u1ef9, y,=
+  \u1ef7, y,=
+  \u1ef5, y)=
+F=_FILENAME
+1=$replace(%_filename%,\u1eef,u)
+
+[#1]
+T=5
+1=$replace(%_filename%,\u1eed,u)
+F=_FILENAME
+
+[#2]
+T=5
+1=$replace(%_filename%,\u1ef1,u)
+F=_FILENAME
+
+[#3]
+T=5
+1=$replace(%_filename%,\u00d0,D)
+F=_FILENAME
+
+[#4]
+T=5
+1=$replace(%_filename%,\u00c1,A)
+F=_FILENAME
+
+[#5]
+T=5
+1=$replace(%_filename%,\u00c0,A)
+F=_FILENAME
+
+[#6]
+T=5
+1=$replace(%_filename%,\u00c3,A)
+F=_FILENAME
+
+[#7]
+T=5
+1=$replace(%_filename%,\u1ea2,A)
+F=_FILENAME
+
+[#8]
+T=5
+1=$replace(%_filename%,\u1ea0,A)
+F=_FILENAME
+
+[#9]
+T=5
+1=$replace(%_filename%,\u00c2,A)
+F=_FILENAME
+
+[#10]
+T=5
+1=$replace(%_filename%,\u1ea4,A)
+F=_FILENAME
+
+[#11]
+T=5
+1=$replace(%_filename%,\u1ea6,A)
+F=_FILENAME
+
+[#12]
+T=5
+1=$replace(%_filename%,\u1eaa,A)
+F=_FILENAME
+
+[#13]
+T=5
+1=$replace(%_filename%,\u1ea8,A)
+F=_FILENAME
+
+[#14]
+T=5
+1=$replace(%_filename%,\u1eac,A)
+F=_FILENAME
+
+[#15]
+T=5
+1=$replace(%_filename%,\u0102,A)
+F=_FILENAME
+
+[#16]
+T=5
+1=$replace(%_filename%,\u1eae,A)
+F=_FILENAME
+
+[#17]
+T=5
+1=$replace(%_filename%,\u1eb0,A)
+F=_FILENAME
+
+[#18]
+T=5
+1=$replace(%_filename%,\u1eb4,A)
+F=_FILENAME
+
+[#19]
+T=5
+1=$replace(%_filename%,\u1eb2,A)
+F=_FILENAME
+
+[#20]
+T=5
+1=$replace(%_filename%,\u1eb6,A)
+F=_FILENAME
+
+[#21]
+T=5
+1=$replace(%_filename%,\u00c9,E)
+F=_FILENAME
+
+[#22]
+T=5
+1=$replace(%_filename%,\u00c8,E)
+F=_FILENAME
+
+[#23]
+T=5
+1=$replace(%_filename%,\u1ebc,E)
+F=_FILENAME
+
+[#24]
+T=5
+1=$replace(%_filename%,\u1eba,E)
+F=_FILENAME
+
+[#25]
+T=5
+1=$replace(%_filename%,\u1eb8,E)
+F=_FILENAME
+
+[#26]
+T=5
+1=$replace(%_filename%,\u00ca,E)
+F=_FILENAME
+
+[#27]
+T=5
+1=$replace(%_filename%,\u1ebe,E)
+F=_FILENAME
+
+[#28]
+T=5
+1=$replace(%_filename%,\u1ec0,E)
+F=_FILENAME
+
+[#29]
+T=5
+1=$replace(%_filename%,\u1ec4,E)
+F=_FILENAME
+
+[#30]
+T=5
+1=$replace(%_filename%,\u1ec2,E)
+F=_FILENAME
+
+[#31]
+T=5
+1=$replace(%_filename%,\u1ec6,E)
+F=_FILENAME
+
+[#32]
+T=5
+1=$replace(%_filename%,\u00cd,I)
+F=_FILENAME
+
+[#33]
+T=5
+1=$replace(%_filename%,\u00cc,I)
+F=_FILENAME
+
+[#34]
+T=5
+1=$replace(%_filename%,\u0128,I)
+F=_FILENAME
+
+[#35]
+T=5
+1=$replace(%_filename%,\u1ec8,I)
+F=_FILENAME
+
+[#36]
+T=5
+1=$replace(%_filename%,\u1eca,I)
+F=_FILENAME
+
+[#37]
+T=5
+1=$replace(%_filename%,\u00d3,O)
+F=_FILENAME
+
+[#38]
+T=5
+1=$replace(%_filename%,\u00d2,O)
+F=_FILENAME
+
+[#39]
+T=5
+1=$replace(%_filename%,\u00d5,O)
+F=_FILENAME
+
+[#40]
+T=5
+1=$replace(%_filename%,\u1ece,O)
+F=_FILENAME
+
+[#41]
+T=5
+1=$replace(%_filename%,\u1ecc,O)
+F=_FILENAME
+
+[#42]
+T=5
+1=$replace(%_filename%,\u00d4,O)
+F=_FILENAME
+
+[#43]
+T=5
+1=$replace(%_filename%,\u1ed0,O)
+F=_FILENAME
+
+[#44]
+T=5
+1=$replace(%_filename%,\u1ed2,O)
+F=_FILENAME
+
+[#45]
+T=5
+1=$replace(%_filename%,\u1ed6,O)
+F=_FILENAME
+
+[#46]
+T=5
+1=$replace(%_filename%,\u1ed4,O)
+F=_FILENAME
+
+[#47]
+T=5
+1=$replace(%_filename%,\u1ed8,O)
+F=_FILENAME
+
+[#48]
+T=5
+1=$replace(%_filename%,\u01a0,O)
+F=_FILENAME
+
+[#49]
+T=5
+1=$replace(%_filename%,\u1eda,O)
+F=_FILENAME
+
+[#50]
+T=5
+1=$replace(%_filename%,\u1edc,O)
+F=_FILENAME
+
+[#51]
+T=5
+1=$replace(%_filename%,\u1ee0,O)
+F=_FILENAME
+
+[#52]
+T=5
+1=$replace(%_filename%,\u1ede,O)
+F=_FILENAME
+
+[#53]
+T=5
+1=$replace(%_filename%,\u1ee2,O)
+F=_FILENAME
+
+[#54]
+T=5
+1=$replace(%_filename%,\u00da,U)
+F=_FILENAME
+
+[#55]
+T=5
+1=$replace(%_filename%,\u00d9,U)
+F=_FILENAME
+
+[#56]
+T=5
+1=$replace(%_filename%,\u0168,U)
+F=_FILENAME
+
+[#57]
+T=5
+1=$replace(%_filename%,\u1ee6,U)
+F=_FILENAME
+
+[#58]
+T=5
+1=$replace(%_filename%,\u1ee4,U)
+F=_FILENAME
+
+[#59]
+T=5
+1=$replace(%_filename%,\u01af,U)
+F=_FILENAME
+
+[#60]
+T=5
+1=$replace(%_filename%,\u1ee8,U)
+F=_FILENAME
+
+[#61]
+T=5
+1=$replace(%_filename%,\u1eea,U)
+F=_FILENAME
+
+[#62]
+T=5
+1=$replace(%_filename%,\u1eee,U)
+F=_FILENAME
+
+[#63]
+T=5
+1=$replace(%_filename%,\u1eec,U)
+F=_FILENAME
+
+[#64]
+T=5
+1=$replace(%_filename%,\u1ef0,U)
+F=_FILENAME
+
+[#65]
+T=5
+1=$replace(%_filename%,\u00dd,Y)
+F=_FILENAME
+
+[#66]
+T=5
+1=$replace(%_filename%,\u1ef2,Y)
+F=_FILENAME
+
+[#67]
+T=5
+1=$replace(%_filename%,\u1ef8,Y)
+F=_FILENAME
+
+[#68]
+T=5
+1=$replace(%_filename%,\u1ef6,Y)
+F=_FILENAME
+
+[#69]
+T=5
+1=$replace(%_filename%,\u1ef4,Y)
+F=_FILENAME
+
+[#70]
+T=5
+1=$replace(%_filename%,\u0111,d)
+F=_FILENAME
+
+[#71]
+T=5
+1=$replace(%_filename%,\u00e1,a)
+F=_FILENAME
+
+[#72]
+T=5
+1=$replace(%_filename%,\u00e0,a)
+F=_FILENAME
+
+[#73]
+T=5
+1=$replace(%_filename%,\u00e3,a)
+F=_FILENAME
+
+[#74]
+T=5
+1=$replace(%_filename%,\u1ea3,a)
+F=_FILENAME
+
+[#75]
+T=5
+1=$replace(%_filename%,\u1ea1,a)
+F=_FILENAME
+
+[#76]
+T=5
+1=$replace(%_filename%,\u00e2,a)
+F=_FILENAME
+
+[#77]
+T=5
+1=$replace(%_filename%,\u1ea5,a)
+F=_FILENAME
+
+[#78]
+T=5
+1=$replace(%_filename%,\u1ea7,a)
+F=_FILENAME
+
+[#79]
+T=5
+1=$replace(%_filename%,\u1eab,a)
+F=_FILENAME
+
+[#80]
+T=5
+1=$replace(%_filename%,\u1ea9,a)
+F=_FILENAME
+
+[#81]
+T=5
+1=$replace(%_filename%,\u1ead,a)
+F=_FILENAME
+
+[#82]
+T=5
+1=$replace(%_filename%,\u0103,a)
+F=_FILENAME
+
+[#83]
+T=5
+1=$replace(%_filename%,\u1eaf,a)
+F=_FILENAME
+
+[#84]
+T=5
+1=$replace(%_filename%,\u1eb1,a)
+F=_FILENAME
+
+[#85]
+T=5
+1=$replace(%_filename%,\u1eb5,a)
+F=_FILENAME
+
+[#86]
+T=5
+1=$replace(%_filename%,\u1eb3,a)
+F=_FILENAME
+
+[#87]
+T=5
+1=$replace(%_filename%,\u1eb7,a)
+F=_FILENAME
+
+[#88]
+T=5
+1=$replace(%_filename%,\u00e9,e)
+F=_FILENAME
+
+[#89]
+T=5
+1=$replace(%_filename%,\u00e8,e)
+F=_FILENAME
+
+[#90]
+T=5
+1=$replace(%_filename%,\u1ebd,e)
+F=_FILENAME
+
+[#91]
+T=5
+1=$replace(%_filename%,\u1ebb,e)
+F=_FILENAME
+
+[#92]
+T=5
+1=$replace(%_filename%,\u1eb9,e)
+F=_FILENAME
+
+[#93]
+T=5
+1=$replace(%_filename%,\u00ea,e)
+F=_FILENAME
+
+[#94]
+T=5
+1=$replace(%_filename%,\u1ebf,e)
+F=_FILENAME
+
+[#95]
+T=5
+1=$replace(%_filename%,\u1ec1,e)
+F=_FILENAME
+
+[#96]
+T=5
+1=$replace(%_filename%,\u1ec5,e)
+F=_FILENAME
+
+[#97]
+T=5
+1=$replace(%_filename%,\u1ec3,e)
+F=_FILENAME
+
+[#98]
+T=5
+1=$replace(%_filename%,\u1ec7,e)
+F=_FILENAME
+
+[#99]
+T=5
+1=$replace(%_filename%,\u00ed,i)
+F=_FILENAME
+
+[#100]
+T=5
+1=$replace(%_filename%,\u00ec,i)
+F=_FILENAME
+
+[#101]
+T=5
+1=$replace(%_filename%,\u0129,i)
+F=_FILENAME
+
+[#102]
+T=5
+1=$replace(%_filename%,\u1ec9,i)
+F=_FILENAME
+
+[#103]
+T=5
+1=$replace(%_filename%,\u1ecb,i)
+F=_FILENAME
+
+[#104]
+T=5
+1=$replace(%_filename%,\u00f3,o)
+F=_FILENAME
+
+[#105]
+T=5
+1=$replace(%_filename%,\u00f2,o)
+F=_FILENAME
+
+[#106]
+T=5
+1=$replace(%_filename%,\u00f5,o)
+F=_FILENAME
+
+[#107]
+T=5
+1=$replace(%_filename%,\u1ecf,o)
+F=_FILENAME
+
+[#108]
+T=5
+1=$replace(%_filename%,\u1ecd,o)
+F=_FILENAME
+
+[#109]
+T=5
+1=$replace(%_filename%,\u00f4,o)
+F=_FILENAME
+
+[#110]
+T=5
+1=$replace(%_filename%,\u1ed1,o)
+F=_FILENAME
+
+[#111]
+T=5
+1=$replace(%_filename%,\u1ed3,o)
+F=_FILENAME
+
+[#112]
+T=5
+1=$replace(%_filename%,\u1ed7,o)
+F=_FILENAME
+
+[#113]
+T=5
+1=$replace(%_filename%,\u1ed5,o)
+F=_FILENAME
+
+[#114]
+T=5
+1=$replace(%_filename%,\u1ed9,o)
+F=_FILENAME
+
+[#115]
+T=5
+1=$replace(%_filename%,\u01a1,o)
+F=_FILENAME
+
+[#116]
+T=5
+1=$replace(%_filename%,\u1edb,o)
+F=_FILENAME
+
+[#117]
+T=5
+1=$replace(%_filename%,\u1edd,o)
+F=_FILENAME
+
+[#118]
+T=5
+1=$replace(%_filename%,\u1ee1,o)
+F=_FILENAME
+
+[#119]
+T=5
+1=$replace(%_filename%,\u1edf,o)
+F=_FILENAME
+
+[#120]
+T=5
+1=$replace(%_filename%,\u1ee3,o)
+F=_FILENAME
+
+[#121]
+T=5
+1=$replace(%_filename%,\u00fa,u)
+F=_FILENAME
+
+[#122]
+T=5
+1=$replace(%_filename%,\u00f9,u)
+F=_FILENAME
+
+[#123]
+T=5
+1=$replace(%_filename%,\u0169,u)
+F=_FILENAME
+
+[#124]
+T=5
+1=$replace(%_filename%,\u1ee7,u)
+F=_FILENAME
+
+[#125]
+T=5
+1=$replace(%_filename%,\u1ee5,u)
+F=_FILENAME
+
+[#126]
+T=5
+1=$replace(%_filename%,\u01b0,u)
+F=_FILENAME
+
+[#127]
+T=5
+1=$replace(%_filename%,\u1ee9,u)
+F=_FILENAME
+
+[#128]
+T=5
+1=$replace(%_filename%,\u1eeb,u)
+F=_FILENAME
+
+[#129]
+T=5
+1=$replace(%_filename%,\u00fd,y)
+F=_FILENAME
+
+[#130]
+T=5
+1=$replace(%_filename%,\u1ef3,y)
+F=_FILENAME
+
+[#131]
+T=5
+1=$replace(%_filename%,\u1ef9,y)
+F=_FILENAME
+
+[#132]
+T=5
+1=$replace(%_filename%,\u1ef7,y)
+F=_FILENAME
+
+[#133]
+T=5
+1=$replace(%_filename%,\u1ef5,y)
+F=_FILENAME
+
